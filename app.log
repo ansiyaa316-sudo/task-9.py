@@ -1,0 +1,19 @@
+2026-02-01 13:45:22,138 - ERROR - Attempted division by zero: a=10, b=0
+2026-02-01 13:45:22,139 - DEBUG - divide_numbers() was called with a=10, b=0
+2026-02-01 13:45:22,139 - INFO - Division successful: 10 / 2 = 5.0
+2026-02-01 13:45:22,139 - DEBUG - divide_numbers() was called with a=10, b=2
+2026-02-01 13:45:22,140 - INFO - Successfully processed value '10'; result=0.1
+2026-02-01 13:45:22,140 - DEBUG - process_value() finished for value '10'
+2026-02-01 13:45:22,141 - ERROR - ValueError: Could not convert 'abc' to int
+2026-02-01 13:45:22,141 - DEBUG - process_value() finished for value 'abc'
+2026-02-01 13:45:22,142 - ERROR - ZeroDivisionError: Inversion of zero for value '0'
+2026-02-01 13:45:22,142 - DEBUG - process_value() finished for value '0'
+2026-02-01 13:45:22,143 - INFO - sqrt_of_number successful for value=25, result=5.0
+2026-02-01 13:45:22,143 - DEBUG - sqrt_of_number() completed for value '25'
+2026-02-01 13:45:22,144 - ERROR - NegativeNumberError: Negative number: -9.0
+2026-02-01 13:45:22,144 - DEBUG - sqrt_of_number() completed for value '-9'
+2026-02-01 13:45:22,144 - ERROR - ValueError converting 'xyz' to float: could not convert string to float: 'xyz'
+2026-02-01 13:45:22,145 - DEBUG - sqrt_of_number() completed for value 'xyz'
+2026-02-01 13:45:22,145 - INFO - Simulating runtime error
+2026-02-01 13:45:22,146 - ERROR - RuntimeError caught: This is a simulated runtime error
+2026-02-01 13:45:22,147 - DEBUG - simulate_runtime_error() completed
